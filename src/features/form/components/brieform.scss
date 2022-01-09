@@ -1,0 +1,38 @@
+.form__header {
+  margin-bottom: 15px;
+  text-align: center;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  color: black;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 7px;
+  text-align: left;
+  color: black;
+}
+
+.form__input {
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+}
+
+.form__select {
+  background-color: white;
+  padding: 6.5px 12px !important;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+}
