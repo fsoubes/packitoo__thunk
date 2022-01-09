@@ -67,7 +67,7 @@ const BriefForm: React.FC<BriefFormProps> = ({}) => {
                   id: (id as number) + 1,
                   title: title,
                   comment: comment,
-                  productId: product ? parseInt(product) : 0,
+                  productId: product ? parseInt(product) : 1,
                 })
               );
               resetForm();
