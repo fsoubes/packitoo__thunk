@@ -40,6 +40,7 @@ const BriefList: React.FC<BriefListProps> = ({}) => {
         id={id}
         title={title}
         comment={comment}
+        // productname={products[productId - 1].name}
         productname={products[productId - 1].name}
       />
     )

@@ -62,12 +62,14 @@ const BriefForm: React.FC<BriefFormProps> = ({}) => {
             } else if (!comment) {
               setErrors({ comment: "you can't send this empty!" });
             } else {
+              console.log(product);
+
               dispatch(
                 addBrief({
                   id: (id as number) + 1,
                   title: title,
                   comment: comment,
-                  productId: product ? parseInt(product) : 1,
+                  productId: product ? parseInt(product) + 1 : 1,
                 })
               );
               resetForm();
